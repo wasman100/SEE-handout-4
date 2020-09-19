@@ -35,7 +35,7 @@ public class commasToString extends ConsoleProgram {
 			}
 			catch (NumberFormatException e)
 			{
-				return null;
+				return "incorrect format please enter a number";
 			}
 
 	}
