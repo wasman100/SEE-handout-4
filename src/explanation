@@ -13,18 +13,18 @@ private Rational raiseToPower(Rational x, int n)
 
 
 heap   		 stack 
-            i 3  FFB0
+     1000     i 3  FFB0
 num 1		result 1080 FFB4
 den 2 		n 3 FFB8
-			X 1000 FFB8
+	 10020		X 1000 FFB8
 num 1 
 den 1       r 1000 FFC0  
-
+      1040
 num 1
 den 2
-
+      1060
 num 1 
 den 4
-
+      1080
 num 1 
 den 8 
