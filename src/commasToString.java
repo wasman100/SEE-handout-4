@@ -3,7 +3,7 @@ import acm.program.*;
 public class commasToString extends ConsoleProgram {
 	public void run() {
 		 while (true) {
-		 String digits = readLine("Enter a numeric string: ");
+		 String digits = readLine("Enter a number: ");
 		 if (digits.length() == 0) break;
 		 println(addCommasToNumericString(digits));
 		 }
