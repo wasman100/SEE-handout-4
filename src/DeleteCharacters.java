@@ -8,17 +8,17 @@ public class DeleteCharacters extends ConsoleProgram {
 		println(removeAllOccurrences("wensday", 'e'));
 		println(removeAllOccurrences("friday", 'e'));
 	}
+
 	public String removeAllOccurrences(String str, char ch) {
-		String done ="";
-		for(int i =0; i< str.length(); i++) {
-			if(str.charAt(i) != ch) {
+		String done = "";
+		for (int i = 0; i < str.length(); i++) {
+			if (str.charAt(i) != ch) {
 				done += str.charAt(i);
 			}
-			
+
 		}
 
 		return done;
-		
-		
+
 	}
 }
